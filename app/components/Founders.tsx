@@ -1,15 +1,17 @@
 const founders = [
   {
-    name: 'Nome Fondatrice 1',
-    role: 'Operatrice Olistica & Sciamana',
-    description: 'Con oltre 15 anni di esperienza nel campo delle pratiche sciamaniche e dell\'arte terapia, guida le donne verso un profondo risveglio spirituale. La sua missione è creare uno spazio sacro dove ogni donna possa riscoprire la propria forza interiore.',
-    image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070',
+    name: 'Isabella Rosi',
+    role: 'Educatrice & Facilitatrice NatureTherapy®',
+    description: 'Sono Isabella Rosi, educatrice d\'infanzia da trent\'anni, facilitatrice di Cerchi di Donne©️ e operatrice di Discipline BioNaturali. Ho creato La Natura Emozionale per offrire uno spazio autentico di crescita, ascolto e trasformazione, nato dal mio essere donna, mamma ed educatrice naturale. Accompagno donne, adulti, famiglie e bambini in esperienze emozionali in Natura, dove il bosco diventa un luogo di cura, consapevolezza e riconnessione con sé stessi. Il mio approccio integra educazione naturale, esperienza in ambiente selvatico, comunicazione in cerchio e pratiche sciamaniche femminili. Come facilitatrice NatureTherapy®️, guido le persone a ritrovare spontaneità, presenza e libertà espressiva attraverso il contatto con la Natura e con la propria interiorità. Creo percorsi e incontri in armonia con la ciclicità naturale e le stagioni, per favorire equilibrio, radicamento e benessere emozionale.',
+    quote: 'La Natura ti mette di fronte a chi sei a chi Vuoi essere e poi ti mostra chi puoi diventare.',
+    image: '/images/isabella-rosi.jpg',
   },
   {
-    name: 'Nome Fondatrice 2',
+    name: 'Simona',
     role: 'Operatrice Olistica & Guaritrice',
     description: 'Specializzata nella connessione con gli elementi e nelle pratiche di guarigione energetica, accompagna le donne in un viaggio di trasformazione attraverso rituali ancestrali e moderna consapevolezza. La sua dedizione è aiutare ogni donna a brillare della propria luce.',
-    image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=2070',
+    quote: null,
+    image: '/images/simona.jpg',
   },
 ];
 
@@ -48,9 +50,14 @@ export default function Founders() {
                   {founder.name}
                 </h3>
                 <p className="text-rose-300 italic mb-4">{founder.role}</p>
-                <p className="text-rose-200/90 leading-relaxed">
+                <p className="text-rose-200/90 leading-relaxed mb-4">
                   {founder.description}
                 </p>
+                {founder.quote && (
+                  <p className="text-rose-300 italic text-center mt-6 pt-6 border-t border-rose-500/30">
+                    "{founder.quote}"
+                  </p>
+                )}
               </div>
             </div>
           ))}
