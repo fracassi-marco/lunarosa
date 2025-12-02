@@ -7,10 +7,10 @@ const founders = [
     image: '/images/isabella-rosi.jpg',
   },
   {
-    name: 'Simona',
-    role: 'Operatrice Olistica & Guaritrice',
-    description: 'Specializzata nella connessione con gli elementi e nelle pratiche di guarigione energetica, accompagna le donne in un viaggio di trasformazione attraverso rituali ancestrali e moderna consapevolezza. La sua dedizione è aiutare ogni donna a brillare della propria luce.',
-    quote: null,
+    name: 'Simona Pancaldi Borghi',
+    role: 'Donna Ponte - Operatrice Olistica in Sciamanesimo Femminile',
+    description: 'Dedico il mio cammino al risveglio di donne e bambini attraverso la riconnessione alla Natura e l\'Arte Sacra, riportando la Sapienza Antica Autoctona e lo Spirito nella Materia. Cammino la Sapienza Celtica Druidica Ogam delle nostre terre, il Tamburo Celtico e apro alla Sapienza Nativa, in Sacerdozio. Accompagno donne e bambini attraverso percorsi di gruppo e individuali, portando il Cerchio come pratica di trasmissione della vita. Sono Maestra d\'Arte Visiva e Ceramica Magistrale, Esperta in Illustrazione per i Bimbi, Operatrice Arte Danza Teatro Terapia, Master in PNL e Ipnosi Regressiva, Accompagnatrice Ogam Celtico e Custode del Grembo. Creatrice del Metodo Artistico Pedagogico Spirituale "Arte Natura per la Riconnessione della Persona" e autrice di favole e opere teatrali per bambini.',
+    quote: 'Ho ancora tanto da camminare per le donne e i bambini, a servizio',
     image: '/images/simona.jpg',
   },
 ];
