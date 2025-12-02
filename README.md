@@ -43,10 +43,20 @@ I file statici saranno generati nella cartella `out/`.
 
 ## 🎨 Personalizzazione
 
-### Immagini delle Fondatrici
-Sostituisci le immagini placeholder in `app/components/Founders.tsx`:
-- Nome, ruolo e descrizione delle fondatrici
-- URL delle immagini (attualmente usa Unsplash)
+### Immagini
+Tutte le immagini sono ora salvate localmente in `public/images/`:
+- `hero-bg.jpg` - Sfondo hero section
+- `arte-terapia.jpg` - Servizio Arte Terapia
+- `venere-elementi.jpg` - Servizio Venere degli Elementi
+- `sciamanesimo.jpg` - Servizio Scuola di Sciamanesimo
+- `servizio-4.jpg` - Quarto servizio da definire
+- `isabella-rosi.jpg` - Foto fondatrice Isabella
+- `simona.jpg` - Foto fondatrice Simona
+
+Per sostituire le immagini, salva i nuovi file con gli stessi nomi in `public/images/`.
+
+### Fondatrici
+Modifica nome, ruolo e descrizione in `app/components/Founders.tsx`.
 
 ### Informazioni di Contatto
 Modifica in `app/components/Contact.tsx`:
@@ -63,17 +73,54 @@ I colori principali possono essere modificati in:
 
 ## 🌐 Deploy
 
-### Vercel (Consigliato)
+### Cloudflare Pages con Wrangler (Consigliato)
+
+```bash
+# Installa Wrangler globalmente (una sola volta)
+npm install -g wrangler
+
+# Build del progetto
+npm run build
+
+# Deploy su Cloudflare Pages
+wrangler pages deploy out --project-name=lunarosa
+
+# Al primo deploy, Wrangler aprirà il browser per l'autenticazione OAuth
+# Autorizza l'accesso al tuo account Cloudflare
+
+# Deploy successivi (più veloci)
+npm run build && wrangler pages deploy out --project-name=lunarosa
+```
+
+Il sito sarà disponibile su `https://lunarosa.pages.dev` o sul dominio personalizzato configurato.
+
+**Vantaggi Cloudflare Pages:**
+- Deploy automatici via Git (opzionale)
+- CDN globale gratuito
+- SSL automatico
+- Performance ottimali
+- Build illimitati
+
+### Cloudflare Pages via Dashboard
+
+1. Vai su [dash.cloudflare.com](https://dash.cloudflare.com)
+2. Seleziona **Workers & Pages** → **Create Application** → **Pages**
+3. Collega il repository GitHub
+4. Configura:
+   - **Build command:** `npm run build`
+   - **Deploy command:** `:` (lascia vuoto o metti un comando dummy)
+   - **Build output directory:** `out`
+5. Deploy automatico ad ogni push su `main`
+
+### Vercel
+
 ```bash
 npm i -g vercel
 vercel
 ```
 
-### GitHub Pages / Netlify
-Dopo il build, carica il contenuto della cartella `out/`.
-
 ### Altre piattaforme
-Il sito è completamente statico e può essere deployato su qualsiasi hosting statico.
+Il sito è completamente statico (cartella `out/`) e può essere deployato su qualsiasi hosting statico (Netlify, GitHub Pages, AWS S3, ecc.).
 
 ## 📁 Struttura
 
@@ -103,10 +150,11 @@ lunarosa/
 
 ## 📝 Note
 
-- Le immagini usano Unsplash per il placeholder - sostituiscile con immagini reali
+- Tutte le immagini sono salvate localmente in `public/images/`
 - Il sito è ottimizzato per dispositivi mobili prima di desktop
-- Tutti i link sono smooth scroll all'interno della pagina
+- Smooth scroll per la navigazione interna
 - WhatsApp e Email sono completamente funzionali una volta configurati
+- Pagina dedicata per "Venere degli Elementi" disponibile su `/venere-degli-elementi`
 
 ---
 
