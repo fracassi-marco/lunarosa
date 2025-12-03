@@ -28,8 +28,13 @@ export default function Header() {
     <>
       <header className="fixed top-0 left-0 right-0 z-50 bg-purple-900 shadow-lg">
         <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
-          <Link href="/" className="text-xl md:text-2xl font-bold text-rose-200 hover:text-rose-300 transition-colors">
-            Luna Rosa Academy
+          <Link href="/" className="flex items-center gap-3 text-xl md:text-2xl font-bold text-rose-200 hover:text-rose-300 transition-colors group">
+            <img 
+              src="/favicon.svg" 
+              alt="Luna Rosa Academy Logo" 
+              className="w-10 h-10 md:w-12 md:h-12 transition-transform group-hover:scale-110"
+            />
+            <span>Luna Rosa Academy</span>
           </Link>
 
           {/* Hamburger Menu Button */}

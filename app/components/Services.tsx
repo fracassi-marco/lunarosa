@@ -12,14 +12,14 @@ const services = [
     title: 'Venere degli Elementi',
     description: 'Riconnettiti con i quattro elementi sacri - Terra, Acqua, Fuoco e Aria - per risvegliare la tua energia femminile e ritrovare equilibrio e armonia.',
     icon: '🌙',
-    image: '/images/venere-elementi.jpg',
+    image: '/images/venere-elementi2.jpg',
     link: '/venere-degli-elementi',
   },
   {
     title: 'Scuola di Sciamanesimo',
     description: 'Immergiti nelle antiche pratiche sciamaniche, impara i rituali sacri e connettiti con gli spiriti guida per un viaggio di trasformazione profonda.',
     icon: '✨',
-    image: '/images/sciamanesimo.jpg',
+    image: '/images/sciamanesimo2.jpg',
     link: null,
   },
   {

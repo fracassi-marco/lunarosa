@@ -13,7 +13,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-b from-purple-900/70 via-indigo-900/60 to-rose-900/70"></div>
 
       {/* Content */}
-      <div className="relative z-10 px-4 max-w-5xl mx-auto py-20">
+      <div className="relative z-10 px-4 max-w-5xl mx-auto py-20 pt-32">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-rose-100 mb-8 animate-fade-in text-center">
           🌙 Luna Rosa Academy
         </h1>
