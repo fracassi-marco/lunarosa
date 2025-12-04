@@ -9,8 +9,8 @@ const founders = [
   {
     name: 'Simona Pancaldi Borghi',
     role: 'Donna Ponte - Operatrice Olistica in Sciamanesimo Femminile',
-    description: 'Dedico il mio cammino al risveglio di donne e bambini attraverso la riconnessione alla Natura e l\'Arte Sacra, riportando la Sapienza Antica Autoctona e lo Spirito nella Materia. Cammino la Sapienza Celtica Druidica Ogam delle nostre terre, il Tamburo Celtico e apro alla Sapienza Nativa, in Sacerdozio. Accompagno donne e bambini attraverso percorsi di gruppo e individuali, portando il Cerchio come pratica di trasmissione della vita. Sono Maestra d\'Arte Visiva e Ceramica Magistrale, Esperta in Illustrazione per i Bimbi, Operatrice Arte Danza Teatro Terapia, Master in PNL e Ipnosi Regressiva, Accompagnatrice Ogam Celtico e Custode del Grembo. Creatrice del Metodo Artistico Pedagogico Spirituale "Arte Natura per la Riconnessione della Persona" e autrice di favole e opere teatrali per bambini.',
-    quote: 'Ho ancora tanto da camminare per le donne e i bambini, a servizio',
+    description: 'Donna Ponte<br/><br/>Missione:<br/>Risveglio Donne e Bimbi attraverso la Riconnessione alla Natura e l\'Arte Sacra riportando La Sapienza Antica Autoctona e lo Spirito nella Materia<br/><br/>Cammino:<br/>Cammino la Sapienza Celtica Druidica Ogam delle Nostre Terre, il Tamburo Celtico e apro alla Sapienza Nativa, in Sacerdozio<br/><br/>Aiuto:<br/>Donne e Bimbi attraverso Percorsi di Gruppo e Singoli Portando il Cerchio come Pratica di Trasmissione della Vita<br/><br/>Formazione:<br/>Maestra D\'Arte Visiva e Ceramica Magistrale<br/>Esperta in Illustrazione per i Bimbi©®<br/>Operatore Attore nel Teatro delle Terapie©®<br/>Operatrice Arte Danza Teatro Terapia con Metodo Pedagogico©®<br/><br/>Master PNL©®<br/>Master Ipnosi Regressiva e Ricostruttiva©®<br/><br/>Conoscitrice della Radioestesia Sciamanica©<br/>Accompagnatrice Ogam Celtico©®<br/>Operatrice Olistica in Sciamanesimo Femminile©®<br/>Custode del Grembo©®<br/><br/>Creatrice del Metodo Artistico Pedagogico Spirituale: "Arte Natura per la Riconnessione della Persona©®"<br/><br/>Autrice:<br/>Creatrice di Favole con<br/>Opere di Teatro di Ricerca©®<br/>Opere Picturebooks Portale per Bimbi©®<br/><br/>Opero:<br/>Collaborando con<br/>Scuole, Associazioni, Cooperative, Comuni, Centri Olistici, Palestre, istituzioni Pubbliche e Private<br/><br/>CoFondatrice della Luna Rosa Academy con Isabella Rosi<br/><br/>Di Me:<br/>Ho ancora Tanto da Camminare per Le Donne e i Bimbi a Servizio',
+    quote: 'Ho ancora Tanto da Camminare per Le Donne e i Bimbi a Servizio',
     image: '/images/simona.jpg',
   },
 ];
@@ -50,9 +50,9 @@ export default function Founders() {
                   {founder.name}
                 </h3>
                 <p className="text-rose-300 italic mb-4">{founder.role}</p>
-                <p className="text-rose-200/90 leading-relaxed mb-4">
-                  {founder.description}
-                </p>
+                <div className="text-rose-200/90 leading-relaxed mb-4"
+                     dangerouslySetInnerHTML={{ __html: founder.description }}
+                />
                 {founder.quote && (
                   <p className="text-rose-300 italic text-center mt-6 pt-6 border-t border-rose-500/30">
                     "{founder.quote}"
