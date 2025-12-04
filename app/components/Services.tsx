@@ -6,7 +6,7 @@ const services = [
     description: 'Esplora il tuo mondo interiore attraverso l\'espressione artistica. Un percorso di guarigione che utilizza l\'arte come ponte verso la consapevolezza di sé.',
     icon: '🎨',
     image: '/images/arte-terapia3.jpg',
-    link: null,
+    link: '/arteterapia',
   },
   {
     title: 'Venere degli Elementi',
