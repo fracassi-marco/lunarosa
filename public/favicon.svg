@@ -1,38 +1,53 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
   <defs>
-    <linearGradient id="moonGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#ec4899;stop-opacity:1" />
+    <linearGradient id="moonGradient" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fda4af;stop-opacity:1" />
       <stop offset="50%" style="stop-color:#f472b6;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#fda4af;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ec4899;stop-opacity:1" />
     </linearGradient>
-    <radialGradient id="glowGradient" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#fda4af;stop-opacity:0.8" />
-      <stop offset="70%" style="stop-color:#ec4899;stop-opacity:0.3" />
-      <stop offset="100%" style="stop-color:#ec4899;stop-opacity:0" />
+    <radialGradient id="glowGradient" cx="50%" cy="55%" r="40%">
+      <stop offset="0%" style="stop-color:#fda4af;stop-opacity:0.5" />
+      <stop offset="70%" style="stop-color:#ec4899;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#7e22ce;stop-opacity:0" />
     </radialGradient>
   </defs>
   
-  <!-- Background circle for better contrast -->
-  <circle cx="50" cy="50" r="48" fill="#1e1b4b" opacity="0.95"/>
+  <!-- Background circle - purple-900 -->
+  <circle cx="50" cy="50" r="48" fill="#581c87" opacity="1"/>
   
   <!-- Glow effect -->
-  <ellipse cx="48" cy="50" rx="32" ry="40" fill="url(#glowGradient)" opacity="0.6"/>
+  <ellipse cx="50" cy="50" rx="30" ry="30" fill="url(#glowGradient)" opacity="0.8"/>
   
-  <!-- Crescent Moon - thicker and more visible -->
-  <path d="M 45 15 A 35 35 0 1 0 45 85 A 28 28 0 1 1 45 15 Z" 
-        fill="url(#moonGradient)" 
-        stroke="#fda4af"
-        stroke-width="1.5"
-        opacity="1"/>
-  
-  <!-- Inner highlight for dimension -->
-  <path d="M 47 20 A 32 32 0 1 0 47 80 A 25 25 0 1 1 47 20 Z" 
-        fill="#fbcfe8" 
-        opacity="0.4"/>
+  <!-- Gruppo della luna ruotato di 90 gradi in senso antiorario -->
+  <g transform="rotate(-90 50 50)">
+    <!-- Luna crescente: arco esterno grande meno arco interno piccolo -->
+    <!-- Definisco la luna con due archi che creano uno spicchio con punte in alto -->
+    <defs>
+      <clipPath id="moonClip">
+        <!-- Cerchio esterno -->
+        <circle cx="50" cy="50" r="28"/>
+      </clipPath>
+    </defs>
+    
+    <!-- Base della luna - cerchio pieno -->
+    <circle cx="50" cy="50" r="28" 
+            fill="url(#moonGradient)" 
+            stroke="#fbcfe8"
+            stroke-width="1.5"
+            clip-path="url(#moonClip)"/>
+    
+    <!-- Rimuovo la parte per creare lo spicchio - cerchio spostato a destra -->
+    <circle cx="60" cy="50" r="24" fill="#581c87"/>
+    
+    <!-- Highlight sul bordo sinistro -->
+    <ellipse cx="35" cy="50" rx="3" ry="22" fill="#fbcfe8" opacity="0.3"/>
+  </g>
   
   <!-- Stars -->
-  <circle cx="25" cy="28" r="2.5" fill="#fda4af"/>
-  <circle cx="75" cy="25" r="2" fill="#f9a8d4"/>
-  <circle cx="22" cy="72" r="2" fill="#fbcfe8"/>
-  <circle cx="78" cy="68" r="2.5" fill="#fda4af"/>
+  <circle cx="20" cy="35" r="2" fill="#fda4af" opacity="0.9"/>
+  <circle cx="80" cy="32" r="2.5" fill="#f9a8d4" opacity="0.9"/>
+  <circle cx="18" cy="65" r="1.5" fill="#fbcfe8" opacity="0.8"/>
+  <circle cx="82" cy="68" r="2" fill="#fda4af" opacity="0.9"/>
+  <circle cx="15" cy="50" r="1.5" fill="#f9a8d4" opacity="0.7"/>
+  <circle cx="85" cy="52" r="1.5" fill="#fbcfe8" opacity="0.8"/>
 </svg>
