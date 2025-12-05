@@ -17,12 +17,12 @@ const founders = [
 
 export default function Founders() {
   return (
-    <section id="fondatrici" className="py-20 bg-gradient-to-b from-purple-950 to-indigo-950">
+    <section id="fondatrici" className="py-20 bg-gradient-to-b from-beige-100 to-beige-200">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl md:text-5xl font-bold text-center text-rose-200 mb-4">
+        <h2 className="text-4xl md:text-5xl font-bold text-center text-bordeaux-800 mb-4">
           Le Fondatrici
         </h2>
-        <p className="text-center text-rose-300/80 mb-16 max-w-2xl mx-auto">
+        <p className="text-center text-bordeaux-600 mb-16 max-w-2xl mx-auto">
           Due anime dedicate al servizio della femminilità sacra
         </p>
 
@@ -30,9 +30,9 @@ export default function Founders() {
           {founders.map((founder, index) => (
             <div
               key={index}
-              className="bg-gradient-to-br from-purple-900/50 to-indigo-900/50 rounded-2xl 
-                       overflow-hidden shadow-2xl backdrop-blur-sm border border-rose-500/20
-                       hover:border-rose-500/40 transition-all duration-300"
+              className="bg-gradient-to-br from-beige-50 to-beige-100 rounded-2xl 
+                       overflow-hidden shadow-2xl backdrop-blur-sm border border-bordeaux-200
+                       hover:border-bordeaux-400 transition-all duration-300"
             >
               {/* Image */}
               <div className="relative h-80 overflow-hidden">
@@ -41,20 +41,20 @@ export default function Founders() {
                            transition-transform duration-500"
                   style={{ backgroundImage: `url('${founder.image}')` }}
                 ></div>
-                <div className="absolute inset-0 bg-gradient-to-t from-purple-900 to-transparent"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-beige-700 to-transparent"></div>
               </div>
 
               {/* Content */}
               <div className="p-8">
-                <h3 className="text-2xl md:text-3xl font-bold text-rose-100 mb-2">
+                <h3 className="text-2xl md:text-3xl font-bold text-bordeaux-900 mb-2">
                   {founder.name}
                 </h3>
-                <p className="text-rose-300 italic mb-4">{founder.role}</p>
-                <div className="text-rose-200/90 leading-relaxed mb-4"
+                <p className="text-bordeaux-700 italic mb-4">{founder.role}</p>
+                <div className="text-bordeaux-800 leading-relaxed mb-4"
                      dangerouslySetInnerHTML={{ __html: founder.description }}
                 />
                 {founder.quote && (
-                  <p className="text-rose-300 italic text-center mt-6 pt-6 border-t border-rose-500/30">
+                  <p className="text-bordeaux-700 italic text-center mt-6 pt-6 border-t border-bordeaux-300">
                     "{founder.quote}"
                   </p>
                 )}
