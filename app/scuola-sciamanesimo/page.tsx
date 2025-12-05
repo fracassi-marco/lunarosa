@@ -16,28 +16,28 @@ export default function ScuolaSciamanesimo() {
           backgroundImage: "url('https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?q=80&w=2127')",
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-purple-900/80 via-indigo-900/70 to-purple-950"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-beige-200/80 via-beige-300/70 to-beige-800"></div>
         
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto py-20">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-rose-100 mb-6">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-bordeaux-900 mb-6">
             Scuola di Sciamanesimo
           </h1>
-          <p className="text-lg md:text-xl text-rose-100/90 leading-relaxed">
+          <p className="text-lg md:text-xl text-bordeaux-900/90 leading-relaxed">
             Un percorso di trasformazione profonda e riconnessione con il tuo potere interiore
           </p>
         </div>
       </section>
 
       {/* Main Content */}
-      <section className="py-16 px-4 bg-gradient-to-b from-purple-950 to-indigo-950">
+      <section className="py-16 px-4 bg-gradient-to-b from-beige-800 to-beige-700">
         <div className="max-w-4xl mx-auto space-y-12">
           
           {/* Introduzione */}
-          <div className="bg-gradient-to-br from-purple-900/50 to-indigo-900/50 rounded-2xl p-8 md:p-10 backdrop-blur-sm border border-rose-500/20">
-            <h2 className="text-3xl md:text-4xl font-bold text-rose-200 mb-6">
+          <div className="bg-gradient-to-br from-beige-200/50 to-beige-300/50 rounded-2xl p-8 md:p-10 backdrop-blur-sm border border-bordeaux-400/20">
+            <h2 className="text-3xl md:text-4xl font-bold text-bordeaux-700 mb-6">
               Un percorso di Sciamanesimo: un'esperienza trasformativa
             </h2>
-            <div className="space-y-4 text-base md:text-lg text-rose-100/95 leading-relaxed">
+            <div className="space-y-4 text-base md:text-lg text-bordeaux-900/95 leading-relaxed">
               <p>
                 Un corso di Sciamanesimo è un cammino profondo e arricchente: offre strumenti per riconnetterti al corpo, 
                 al tuo potere interiore e alla natura che vive dentro e fuori di te. Favorisce il benessere emotivo, 
@@ -51,11 +51,11 @@ export default function ScuolaSciamanesimo() {
           </div>
 
           {/* Percorso Femminile */}
-          <div className="bg-gradient-to-br from-rose-900/40 to-purple-900/40 rounded-2xl p-8 md:p-10 backdrop-blur-sm border border-rose-400/30">
-            <h3 className="text-2xl md:text-3xl font-bold text-rose-200 mb-6">
+          <div className="bg-gradient-to-br from-bordeaux-200/40 to-beige-200/40 rounded-2xl p-8 md:p-10 backdrop-blur-sm border border-rose-400/30">
+            <h3 className="text-2xl md:text-3xl font-bold text-bordeaux-700 mb-6">
               Il percorso di sciamanesimo femminile
             </h3>
-            <div className="space-y-4 text-base md:text-lg text-rose-100/95 leading-relaxed">
+            <div className="space-y-4 text-base md:text-lg text-bordeaux-900/95 leading-relaxed">
               <p>
                 Un cammino dedicato al femminile aiuta a sciogliere blocchi emotivi e tensioni, riattivando l'energia vitale 
                 e risvegliando la creatività sopita.
@@ -67,87 +67,87 @@ export default function ScuolaSciamanesimo() {
           </div>
 
           {/* A chi si rivolge */}
-          <div className="bg-gradient-to-br from-indigo-900/50 to-purple-900/50 rounded-2xl p-8 md:p-10 backdrop-blur-sm border border-rose-500/20">
-            <h3 className="text-2xl md:text-3xl font-bold text-rose-200 mb-6 text-center">
+          <div className="bg-gradient-to-br from-beige-300/50 to-beige-200/50 rounded-2xl p-8 md:p-10 backdrop-blur-sm border border-bordeaux-400/20">
+            <h3 className="text-2xl md:text-3xl font-bold text-bordeaux-700 mb-6 text-center">
               A chi si rivolge
             </h3>
-            <p className="text-lg md:text-xl text-rose-200/90 mb-6 text-center italic">
+            <p className="text-lg md:text-xl text-bordeaux-700/90 mb-6 text-center italic">
               Ti risuona uno di questi punti?
             </p>
-            <ul className="space-y-4 text-base md:text-lg text-rose-100/95">
+            <ul className="space-y-4 text-base md:text-lg text-bordeaux-900/95">
               <li className="flex items-start">
-                <span className="text-rose-300 mr-3 mt-1 flex-shrink-0 text-xl">✦</span>
+                <span className="text-bordeaux-600 mr-3 mt-1 flex-shrink-0 text-xl">✦</span>
                 <span>Senti il bisogno di immergerti nella Natura e comprenderne i cicli?</span>
               </li>
               <li className="flex items-start">
-                <span className="text-rose-300 mr-3 mt-1 flex-shrink-0 text-xl">✦</span>
+                <span className="text-bordeaux-600 mr-3 mt-1 flex-shrink-0 text-xl">✦</span>
                 <span>Avverti capacità percettive e sensoriali più sviluppate e vuoi imparare a integrarle nella tua vita?</span>
               </li>
               <li className="flex items-start">
-                <span className="text-rose-300 mr-3 mt-1 flex-shrink-0 text-xl">✦</span>
+                <span className="text-bordeaux-600 mr-3 mt-1 flex-shrink-0 text-xl">✦</span>
                 <span>Vuoi scoprire come amare in modo Sacro?</span>
               </li>
               <li className="flex items-start">
-                <span className="text-rose-300 mr-3 mt-1 flex-shrink-0 text-xl">✦</span>
+                <span className="text-bordeaux-600 mr-3 mt-1 flex-shrink-0 text-xl">✦</span>
                 <span>Ti affascina il potere degli Alberi e desideri portarlo nella quotidianità?</span>
               </li>
               <li className="flex items-start">
-                <span className="text-rose-300 mr-3 mt-1 flex-shrink-0 text-xl">✦</span>
+                <span className="text-bordeaux-600 mr-3 mt-1 flex-shrink-0 text-xl">✦</span>
                 <span>Ti chiedi chi sei oggi, davvero?</span>
               </li>
             </ul>
           </div>
 
           {/* Cosa troverai */}
-          <div className="bg-gradient-to-br from-purple-900/50 to-indigo-900/50 rounded-2xl p-8 md:p-10 backdrop-blur-sm border border-rose-500/20">
-            <h3 className="text-2xl md:text-3xl font-bold text-rose-200 mb-8 text-center">
+          <div className="bg-gradient-to-br from-beige-200/50 to-beige-300/50 rounded-2xl p-8 md:p-10 backdrop-blur-sm border border-bordeaux-400/20">
+            <h3 className="text-2xl md:text-3xl font-bold text-bordeaux-700 mb-8 text-center">
               Cosa troverai nel percorso
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {/* Item 1 */}
-              <div className="bg-gradient-to-br from-purple-800/30 to-indigo-800/30 rounded-xl p-6 border border-rose-500/20">
-                <h4 className="text-xl font-bold text-rose-200 mb-3">🌳 Ogam</h4>
-                <p className="text-rose-100/90">
+              <div className="bg-gradient-to-br from-beige-300/30 to-indigo-800/30 rounded-xl p-6 border border-bordeaux-400/20">
+                <h4 className="text-xl font-bold text-bordeaux-700 mb-3">🌳 Ogam</h4>
+                <p className="text-bordeaux-900/90">
                   La frequenza del potere degli alberi: connessione, saggezza e divinazione.
                 </p>
               </div>
 
               {/* Item 2 */}
-              <div className="bg-gradient-to-br from-purple-800/30 to-indigo-800/30 rounded-xl p-6 border border-rose-500/20">
-                <h4 className="text-xl font-bold text-rose-200 mb-3">🌙 Sacro Femminile e Divino Maschile</h4>
-                <p className="text-rose-100/90">
+              <div className="bg-gradient-to-br from-beige-300/30 to-indigo-800/30 rounded-xl p-6 border border-bordeaux-400/20">
+                <h4 className="text-xl font-bold text-bordeaux-700 mb-3">🌙 Sacro Femminile e Divino Maschile</h4>
+                <p className="text-bordeaux-900/90">
                   Unione sacra ed energia incarnata.
                 </p>
               </div>
 
               {/* Item 3 */}
-              <div className="bg-gradient-to-br from-purple-800/30 to-indigo-800/30 rounded-xl p-6 border border-rose-500/20">
-                <h4 className="text-xl font-bold text-rose-200 mb-3">👁️ Visione e Tradizioni</h4>
-                <p className="text-rose-100/90">
+              <div className="bg-gradient-to-br from-beige-300/30 to-indigo-800/30 rounded-xl p-6 border border-bordeaux-400/20">
+                <h4 className="text-xl font-bold text-bordeaux-700 mb-3">👁️ Visione e Tradizioni</h4>
+                <p className="text-bordeaux-900/90">
                   Radici native e autoctone.
                 </p>
               </div>
 
               {/* Item 4 */}
-              <div className="bg-gradient-to-br from-purple-800/30 to-indigo-800/30 rounded-xl p-6 border border-rose-500/20">
-                <h4 className="text-xl font-bold text-rose-200 mb-3">✨ Pratiche Sciamaniche</h4>
-                <p className="text-rose-100/90">
+              <div className="bg-gradient-to-br from-beige-300/30 to-indigo-800/30 rounded-xl p-6 border border-bordeaux-400/20">
+                <h4 className="text-xl font-bold text-bordeaux-700 mb-3">✨ Pratiche Sciamaniche</h4>
+                <p className="text-bordeaux-900/90">
                   Rituali, cure femminili e lavoro energetico.
                 </p>
               </div>
 
               {/* Item 5 */}
-              <div className="bg-gradient-to-br from-purple-800/30 to-indigo-800/30 rounded-xl p-6 border border-rose-500/20">
-                <h4 className="text-xl font-bold text-rose-200 mb-3">💃 Danza Sacra</h4>
-                <p className="text-rose-100/90">
+              <div className="bg-gradient-to-br from-beige-300/30 to-indigo-800/30 rounded-xl p-6 border border-bordeaux-400/20">
+                <h4 className="text-xl font-bold text-bordeaux-700 mb-3">💃 Danza Sacra</h4>
+                <p className="text-bordeaux-900/90">
                   Movimento, ascolto, libertà.
                 </p>
               </div>
 
               {/* Item 6 */}
-              <div className="bg-gradient-to-br from-purple-800/30 to-indigo-800/30 rounded-xl p-6 border border-rose-500/20">
-                <h4 className="text-xl font-bold text-rose-200 mb-3">🔥 Strumenti di Potere</h4>
-                <p className="text-rose-100/90">
+              <div className="bg-gradient-to-br from-beige-300/30 to-indigo-800/30 rounded-xl p-6 border border-bordeaux-400/20">
+                <h4 className="text-xl font-bold text-bordeaux-700 mb-3">🔥 Strumenti di Potere</h4>
+                <p className="text-bordeaux-900/90">
                   Tamburo, bastone, fuoco, acqua ed elementi.
                 </p>
               </div>
@@ -156,7 +156,7 @@ export default function ScuolaSciamanesimo() {
 
           {/* Citazione Finale */}
           <div className="text-center py-8">
-            <p className="text-2xl md:text-3xl text-rose-200 font-light italic leading-relaxed">
+            <p className="text-2xl md:text-3xl text-bordeaux-700 font-light italic leading-relaxed">
               Un viaggio verso te stessa.<br />
               Un risveglio del tuo potere.<br />
               Un ritorno alla Madre Terra.

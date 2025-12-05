@@ -33,12 +33,12 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="servizi" className="py-20 bg-gradient-to-b from-indigo-950 to-purple-950">
+    <section id="servizi" className="py-20 bg-gradient-to-b from-beige-700 to-beige-800">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl md:text-5xl font-bold text-center text-rose-200 mb-4">
+        <h2 className="text-4xl md:text-5xl font-bold text-center text-bordeaux-700 mb-4">
           I Nostri Servizi
         </h2>
-        <p className="text-center text-rose-300/80 mb-16 max-w-2xl mx-auto">
+        <p className="text-center text-bordeaux-600/80 mb-16 max-w-2xl mx-auto">
           Percorsi sacri di risveglio e trasformazione
         </p>
 
@@ -46,7 +46,7 @@ export default function Services() {
           {services.map((service, index) => {
             const CardContent = (
               <div
-                className="group relative overflow-hidden rounded-2xl shadow-2xl hover:shadow-rose-500/20 
+                className="group relative overflow-hidden rounded-2xl shadow-2xl hover:shadow-bordeaux-400/20 
                          transition-all duration-500 hover:scale-105 cursor-pointer"
               >
                 {/* Background Image */}
@@ -57,19 +57,19 @@ export default function Services() {
                 ></div>
 
                 {/* Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-purple-900/95 via-purple-900/70 to-transparent"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-beige-200/95 via-beige-200/70 to-transparent"></div>
 
                 {/* Content */}
                 <div className="relative p-8 min-h-[400px] flex flex-col justify-end">
                   <div className="text-5xl mb-4">{service.icon}</div>
-                  <h3 className="text-2xl md:text-3xl font-bold text-rose-100 mb-3">
+                  <h3 className="text-2xl md:text-3xl font-bold text-bordeaux-900 mb-3">
                     {service.title}
                   </h3>
-                  <p className="text-rose-200/90 leading-relaxed mb-4">
+                  <p className="text-bordeaux-700/90 leading-relaxed mb-4">
                     {service.description}
                   </p>
                   {service.link && (
-                    <span className="text-rose-300 font-medium inline-flex items-center group-hover:text-rose-200 transition-colors">
+                    <span className="text-bordeaux-600 font-medium inline-flex items-center group-hover:text-bordeaux-800 transition-colors">
                       Scopri di più →
                     </span>
                   )}
