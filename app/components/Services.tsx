@@ -9,7 +9,7 @@ const services = [
     link: '/arteterapia',
   },
   {
-    title: 'Venere degli Elementi',
+    title: 'Spazio al femminile',
     description: 'Riconnettiti con i quattro elementi sacri - Terra, Acqua, Fuoco e Aria - per risvegliare la tua energia femminile e ritrovare equilibrio e armonia.',
     icon: '🌙',
     image: '/images/venere-elementi2.jpg',
