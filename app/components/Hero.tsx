@@ -15,7 +15,7 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 px-4 max-w-5xl mx-auto py-20 pt-32">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-rose-100 mb-8 animate-fade-in text-center">
-          🌙 Luna Rosa Academy
+          Luna Rosa Academy
         </h1>
         
         <div className="space-y-6 text-rose-100">
