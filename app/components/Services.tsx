@@ -20,7 +20,7 @@ const services = [
     description: 'Immergiti nelle antiche pratiche sciamaniche, impara i rituali sacri e connettiti con gli spiriti guida per un viaggio di trasformazione profonda.',
     icon: '✨',
     image: '/images/sciamanesimo2.jpg',
-    link: null,
+    link: '/scuola-sciamanesimo',
   },
   {
     title: 'Percorso da Definire',
