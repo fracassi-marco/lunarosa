@@ -20,7 +20,7 @@ export default function ScuolaSciamanesimo() {
         
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto py-20">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-bordeaux-900 mb-6">
-            Scuola di Sciamanesimo
+            Percorso per Donne in cammino sulla via dello Sciamanesimo
           </h1>
           <p className="text-lg md:text-xl text-bordeaux-900/90 leading-relaxed">
             Un percorso di trasformazione profonda e riconnessione con il tuo potere interiore
@@ -39,7 +39,7 @@ export default function ScuolaSciamanesimo() {
             </h2>
             <div className="space-y-4 text-base md:text-lg text-bordeaux-900/95 leading-relaxed">
               <p>
-                Un corso di Sciamanesimo è un cammino profondo e arricchente: offre strumenti per riconnetterti al corpo, 
+                Un percorso di Sciamanesimo è un cammino profondo e arricchente: offre strumenti per riconnetterti al corpo, 
                 al tuo potere interiore e alla natura che vive dentro e fuori di te. Favorisce il benessere emotivo, 
                 sviluppa l'intuito e apre nuovi spazi di percezione e consapevolezza.
               </p>
@@ -132,7 +132,7 @@ export default function ScuolaSciamanesimo() {
               <div className="bg-gradient-to-br from-beige-200/30 to-indigo-800/30 rounded-xl p-6 border border-bordeaux-400/20">
                 <h4 className="text-xl font-bold text-bordeaux-700 mb-3">✨ Pratiche Sciamaniche</h4>
                 <p className="text-bordeaux-900/90">
-                  Rituali, cure femminili e lavoro energetico.
+                  Pratiche, cure femminili e lavoro energetico.
                 </p>
               </div>
 

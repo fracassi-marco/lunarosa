@@ -15,7 +15,7 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 px-4 max-w-5xl mx-auto py-20 pt-32">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-bordeaux-900 mb-8 animate-fade-in text-center">
-          Luna Rosa Academy
+          LUNA ROSA ACADEMY
         </h1>
         
         <div className="space-y-6 text-bordeaux-900">
@@ -26,7 +26,7 @@ export default function Hero() {
 
           <div className="bg-beige-50/80 backdrop-blur-sm rounded-2xl p-6 md:p-8">
             <h2 className="text-2xl md:text-3xl font-semibold text-bordeaux-800 mb-4">
-              Luna Rosa Academy è uno spazio protetto dove puoi:
+              LUNA ROSA ACADEMY è uno spazio dove puoi:
             </h2>
             <ul className="space-y-3 text-base md:text-lg text-bordeaux-900">
               <li className="flex items-start">
@@ -43,7 +43,7 @@ export default function Hero() {
               </li>
               <li className="flex items-start">
                 <span className="text-bordeaux-600 mr-3 mt-1 flex-shrink-0">✦</span>
-                <span>Esprimere creatività e spiritualità attraverso rituali, meditazioni e pratiche consapevoli</span>
+                <span>Esprimere creatività e spiritualità attraverso meditazioni e pratiche consapevoli</span>
               </li>
               <li className="flex items-start">
                 <span className="text-bordeaux-600 mr-3 mt-1 flex-shrink-0">✦</span>
@@ -57,7 +57,7 @@ export default function Hero() {
           </div>
 
           <p className="text-base md:text-lg leading-relaxed">
-            Attraverso cerchi di donne, pratiche rituali, meditazioni guidate, movimenti corporei e lavori di gruppo, 
+            Attraverso cerchi di donne, pratiche, meditazioni guidate, movimenti corporei e lavori di gruppo, 
             ogni donna ha l'opportunità di ritrovare il proprio spazio interiore, nutrire anima, corpo e cuore e 
             riscoprire la propria essenza autentica.
           </p>

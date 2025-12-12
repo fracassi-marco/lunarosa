@@ -16,8 +16,8 @@ const services = [
     link: '/venere-degli-elementi',
   },
   {
-    title: 'Scuola di Sciamanesimo',
-    description: 'Immergiti nelle antiche pratiche sciamaniche, impara i rituali sacri e connettiti con gli spiriti guida per un viaggio di trasformazione profonda.',
+    title: 'Percorso per Donne in cammino sulla via dello Sciamanesimo',
+    description: 'Immergiti nelle antiche pratiche sciamaniche, impara le pratiche sacre e connettiti con gli spiriti guida per un viaggio di trasformazione profonda.',
     icon: '✨',
     image: '/images/sciamanesimo2.jpg',
     link: '/scuola-sciamanesimo',
