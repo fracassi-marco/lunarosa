@@ -31,10 +31,10 @@ export default function Header() {
           <Link href="/" className="flex items-center gap-3 text-xl md:text-2xl font-bold text-bordeaux-700 hover:text-bordeaux-600 transition-colors group">
             <img 
               src="/favicon.svg" 
-              alt="Luna Rosa Academy Logo" 
+              alt="LUNA ROSA ACADEMY Logo" 
               className="w-10 h-10 md:w-12 md:h-12 transition-transform group-hover:scale-110"
             />
-            <span>Luna Rosa Academy</span>
+            <span>LUNA ROSA ACADEMY</span>
           </Link>
 
           {/* Hamburger Menu Button */}

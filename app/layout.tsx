@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Luna Rosa Academy - Risveglio Spirituale e Trasformazione",
+  title: "LUNA ROSA ACADEMY - Risveglio Spirituale e Trasformazione",
   description: "Academy per donne dedicata alla crescita spirituale attraverso pratiche sciamaniche, arte terapia e la saggezza degli elementi",
   icons: {
     icon: [

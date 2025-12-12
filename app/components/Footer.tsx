@@ -69,7 +69,7 @@ export default function Footer() {
         {/* Divider */}
         <div className="border-t border-bordeaux-300 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center text-bordeaux-600 text-sm">
-            <p>&copy; {currentYear} Luna Rosa Academy. Tutti i diritti riservati.</p>
+            <p>&copy; {currentYear} LUNA ROSA ACADEMY. Tutti i diritti riservati.</p>
             <p className="mt-2 md:mt-0">
               Fatto con 💜 per il risveglio femminile
             </p>

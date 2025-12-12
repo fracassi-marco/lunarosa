@@ -1,6 +1,6 @@
-# Luna Rosa Academy
+# LUNA ROSA ACADEMY
 
-Un sito web mobile-first per Luna Rosa Academy, dedicato a due operatrici olistiche che fondano un'accademia per donne.
+Un sito web mobile-first per LUNA ROSA ACADEMY, dedicato a due operatrici olistiche che fondano un'accademia per donne.
 
 ## 🌙 Caratteristiche
 
