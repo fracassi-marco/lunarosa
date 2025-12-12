@@ -88,13 +88,13 @@ export default function Header() {
 
       {/* Mobile Menu Overlay */}
       {isMenuOpen && (
-        <div className="lg:hidden fixed inset-0 z-40 bg-beige-700/95 backdrop-blur-md pt-20">
+        <div className="lg:hidden fixed inset-0 z-40 bg-beige-100/80 backdrop-blur-sm pt-20">
           <div className="container mx-auto px-6 h-full">
             <ul className="flex flex-col space-y-6 pt-8">
               <li>
                 <button 
                   onClick={() => handleNavigation('home')} 
-                  className="w-full text-left text-2xl font-semibold text-bordeaux-900 py-4 px-6 bg-gradient-to-r from-beige-100 to-beige-200 rounded-xl hover:from-bordeaux-500 hover:to-bordeaux-600 hover:text-white transition-all duration-300 shadow-lg hover:shadow-bordeaux-400/30 hover:scale-[1.02]"
+                  className="w-full text-left text-2xl font-normal text-bordeaux-900 py-4 px-6 bg-gradient-to-r from-beige-100 to-beige-200 rounded-xl hover:from-bordeaux-500 hover:to-bordeaux-600 hover:text-white transition-all duration-300 shadow-lg hover:shadow-bordeaux-400/30 hover:scale-[1.02]"
                 >
                   Home
                 </button>
@@ -102,7 +102,7 @@ export default function Header() {
               <li>
                 <button 
                   onClick={() => handleNavigation('servizi')} 
-                  className="w-full text-left text-2xl font-semibold text-bordeaux-900 py-4 px-6 bg-gradient-to-r from-beige-100 to-beige-200 rounded-xl hover:from-bordeaux-500 hover:to-bordeaux-600 hover:text-white transition-all duration-300 shadow-lg hover:shadow-bordeaux-400/30 hover:scale-[1.02]"
+                  className="w-full text-left text-2xl font-normal text-bordeaux-900 py-4 px-6 bg-gradient-to-r from-beige-100 to-beige-200 rounded-xl hover:from-bordeaux-500 hover:to-bordeaux-600 hover:text-white transition-all duration-300 shadow-lg hover:shadow-bordeaux-400/30 hover:scale-[1.02]"
                 >
                   Servizi
                 </button>
@@ -110,7 +110,7 @@ export default function Header() {
               <li>
                 <button 
                   onClick={() => handleNavigation('fondatrici')} 
-                  className="w-full text-left text-2xl font-semibold text-bordeaux-900 py-4 px-6 bg-gradient-to-r from-beige-100 to-beige-200 rounded-xl hover:from-bordeaux-500 hover:to-bordeaux-600 hover:text-white transition-all duration-300 shadow-lg hover:shadow-bordeaux-400/30 hover:scale-[1.02]"
+                  className="w-full text-left text-2xl font-normal text-bordeaux-900 py-4 px-6 bg-gradient-to-r from-beige-100 to-beige-200 rounded-xl hover:from-bordeaux-500 hover:to-bordeaux-600 hover:text-white transition-all duration-300 shadow-lg hover:shadow-bordeaux-400/30 hover:scale-[1.02]"
                 >
                   Fondatrici
                 </button>
@@ -118,7 +118,7 @@ export default function Header() {
               <li>
                 <button 
                   onClick={() => handleNavigation('contatti')} 
-                  className="w-full text-left text-2xl font-semibold text-bordeaux-900 py-4 px-6 bg-gradient-to-r from-beige-100 to-beige-200 rounded-xl hover:from-bordeaux-500 hover:to-bordeaux-600 hover:text-white transition-all duration-300 shadow-lg hover:shadow-bordeaux-400/30 hover:scale-[1.02]"
+                  className="w-full text-left text-2xl font-normal text-bordeaux-900 py-4 px-6 bg-gradient-to-r from-beige-100 to-beige-200 rounded-xl hover:from-bordeaux-500 hover:to-bordeaux-600 hover:text-white transition-all duration-300 shadow-lg hover:shadow-bordeaux-400/30 hover:scale-[1.02]"
                 >
                   Contatti
                 </button>
