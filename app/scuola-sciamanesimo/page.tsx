@@ -154,6 +154,80 @@ export default function ScuolaSciamanesimo() {
             </div>
           </div>
 
+          {/* Percorso di Sciamanesimo Femminile - Contenuto */}
+          <div className="bg-gradient-to-br from-bordeaux-100/40 to-beige-100/40 rounded-2xl p-8 md:p-10 backdrop-blur-sm border border-bordeaux-400/30">
+            <h3 className="text-2xl md:text-3xl font-bold text-bordeaux-700 mb-4 text-center">
+              PERCORSO DI SCIAMANESIMO FEMMINILE 🌙
+            </h3>
+            <h4 className="text-xl md:text-2xl font-bold text-bordeaux-600 mb-6 text-center">
+              CONTENUTO💖
+            </h4>
+            <div className="space-y-6 text-base md:text-lg text-bordeaux-900/95 leading-relaxed">
+              <p>
+                Il Cammino nello Sciamanesimo Femminile e' orientato alla Ricerca della Visione ed alla Riconnessione al Proprio Potere Femminile Sacro Ancestrale, per creare una quotidianità centrata e sveglia riportando l'Antica Sapienza Femminile nella vita Personale ☺️🙏🌙
+              </p>
+
+              <div className="space-y-4">
+                <div>
+                  <h5 className="font-bold text-bordeaux-700 mb-2">CAMMINO CON IL TAMBURO:</h5>
+                  <p>Si cerca e si accoglie il Tamburo come Compagno di Cammino e Maestro.</p>
+                </div>
+
+                <div>
+                  <h5 className="font-bold text-bordeaux-700 mb-2">CAMMINO CON I COMPAGNI DI POTERE:</h5>
+                  <p>Ogni Compagno arriva a noi attraverso Ricerca e Accoglienza🥰🍂</p>
+                  <p>Il Bastone, la Maraca, la Salvia, la Pietra, l'Acqua, il Fuoco, l'Animale✨🌿🦊</p>
+                </div>
+
+                <div>
+                  <h5 className="font-bold text-bordeaux-700 mb-2">SACRO FEMMINILE E DIVINO MASCHILE</h5>
+                  <p>La nostra Antica Funzione Originale e l'Unione Sacra🙏🥰</p>
+                </div>
+
+                <p className="font-bold text-bordeaux-700">RICERCA DELLA VISIONE🍄✨</p>
+
+                <p className="font-bold text-bordeaux-700">VOLO SCIAMANICO☀️🔥🌳</p>
+
+                <div>
+                  <h5 className="font-bold text-bordeaux-700 mb-2">OGAM CELTICO</h5>
+                  <p>Antica Sapienza della frequenza degli Alberi della nostra Terra di tradizione Celtica🌳🌿✨</p>
+                </div>
+
+                <div>
+                  <h5 className="font-bold text-bordeaux-700 mb-2">DANZA SACRA</h5>
+                  <p>Estatica e Trance🌞👑🌈</p>
+                </div>
+
+                <div>
+                  <h5 className="font-bold text-bordeaux-700 mb-2">ARTE SACRA</h5>
+                  <p>Pittura Corporea Ancestrale Sciamanica✨</p>
+                </div>
+
+                <div>
+                  <h5 className="font-bold text-bordeaux-700 mb-2">ELEMENTI DI DIVINAZIONE🌙</h5>
+                  <p>Per le Allieve che possiedono capacità intrinseca🥰🙏🌬️✨</p>
+                </div>
+
+                <div>
+                  <h5 className="font-bold text-bordeaux-700 mb-2">CELEBRAZIONE DEI MOMENTI DI PASSAGGIO FEMMINILI🥰🌹</h5>
+                  <p>IL Divenire Donna, il Divenire Madre, il Divenire Sposa, il Divenire l'Antica🌙</p>
+                </div>
+
+                <p className="font-bold text-bordeaux-700">LE ANTENATE🌙</p>
+
+                <p className="font-bold text-bordeaux-700">IL GREMBO🌹</p>
+
+                <p className="font-bold text-bordeaux-700">CICLICITA' FEMMINILE LUNARE🌝☀️🌙🌹</p>
+
+                <p className="mt-6">Questo Cammino comprende la possibilità di ricevere Sedute Personali🌹</p>
+
+                <p className="mt-6 font-semibold text-bordeaux-800">
+                  Vi Aspettiamo con Amore Donne🥰 le vostre figlie e le ragazze minorenni sono Accolte con la Mami accanto ☺️🙏✨
+                </p>
+              </div>
+            </div>
+          </div>
+
           {/* Citazione Finale */}
           <div className="text-center py-8">
             <p className="text-2xl md:text-3xl text-bordeaux-700 font-light italic leading-relaxed">
